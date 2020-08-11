@@ -1,0 +1,23 @@
+{
+  "name": "phd-defense",
+  "version": "1.0.0",
+  "description": "A presentation and defense of my dissertation, submitted in partial fulfillment of the requirements of a Ph.D. in Physics at the University of Washington",
+  "homepage": "https://github.com/richford/phd-defense",
+  "bugs": "https://github.com/richford/phd-defense/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/richford/phd-defense.git"
+  },
+  "author": "Adam Richie-Halford",
+  "license": "CC-BY-4.0",
+  "dependencies": {
+    "@fortawesome/fontawesome-free-webfonts": "1.0.8",
+    "chart.js": "^2.9.3",
+    "chartjs-chart-error-bars": "^1.2.1",
+    "devicons": "1.8.0",
+    "reveal.js": "^3.8.0",
+    "reveal.js-menu": "1.2.0",
+    "reveal_external": "1.3.0"
+  },
+  "private": true
+}
