@@ -1,0 +1,23 @@
+#!/bin/bash
+
+case "$1" in
+    on)
+        echo "Turning notes on"
+        for fn in index.html $(find sections -type f -name "*.html")
+        do
+            cp ${fn/.html/.html.withnotes} $fn
+        done ;;
+
+    off)
+        echo "Turning notes off"
+        for fn in index.html $(find sections -type f -name "*.html")
+        do
+            sed '/<aside class="notes"/,/<\/aside>/d' $fn > ${fn/.html/.html.nonotes}
+            cp $fn ${fn/.html/.html.withnotes}
+            cp ${fn/.html/.html.nonotes} $fn
+        done ;;
+
+    *) echo "Option $1 not recognized" ;; # In case you typed a different option other than on/off
+
+esac
+

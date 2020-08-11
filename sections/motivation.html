@@ -1,0 +1,193 @@
+<section data-menu-title="Motivation">
+  <h2>Motivation</h2>
+  <aside class="notes">
+    <div data-markdown>
+      * So why would we want to study childhood adversity anyway
+    </div>
+  </aside>
+</section>
+
+<section>
+  <h2>Childhood adversity is common in the US</h2>
+  <canvas data-chart="horizontalBar">
+    <!-- 
+    {
+      "data": {
+        "labels": [
+          "Parent Death","Parent Divorce","Other Parent Loss","Parent Mental Illness",
+          "Parent Substance Use","Parent Criminality","Family Violence","Physical Abuse",
+          "Sexual Abuse","Emotional Abuse","Neglect","Economic Adversity","Any Adversity"
+        ],
+        "datasets": [
+          {
+            "data": [7.3,28.4,4.9,15.6,10.7,26.3,8.4,4.2,4.4,5.9,2.2,16.2,58.3],
+            "label": "McLaughlin et al. (2012)",
+            "backgroundColor": "rgba(20,220,220,.8)"
+          }
+        ]
+      }, 
+      "options": {
+        "responsive": "true",
+        "scales": {
+          "xAxes": [{
+            "scaleLabel": {
+              "display": "true",
+              "labelString": "Prevalence (%)"
+            }
+          }]
+        }
+      }
+    }
+    -->
+  </canvas>
+  <div class="imgcite">
+    <cite><a href="https://dx.doi.org/10.1001%2Farchgenpsychiatry.2011.2277">McLaughlin et al. (2012)</a></cite>
+  </div>
+  <aside class="notes">
+    <div data-markdown>
+      * This is data from a nationally representative sample (N > 10,000)
+      * Prevalence rates vary by adversity type
+      * More than half of children will experience at least one of these kinds of adversity before they reach adulthood
+    </div>
+  </aside>
+</section>
+
+<section>
+  <h2>Adversity predicts mental health later in life</h2>
+  <canvas data-chart="barWithErrorBars">
+    <!-- 
+    {
+      "data": {
+        "labels": [
+          "1","2","3","4","5","6+"
+        ],
+        "datasets": [
+          {
+            "data": [
+              {
+                "y": 1.8,
+                "yMin": 1.6,
+                "yMax": 2.2
+              },
+              {
+                "y": 2.4,
+                "yMin": 2.0,
+                "yMax": 2.8
+              },
+              {
+                "y": 2.6,
+                "yMin": 2.1,
+                "yMax": 3.1
+              },
+              {
+                "y": 3.0,
+                "yMin": 2.5,
+                "yMax": 3.6
+              },
+              {
+                "y": 3.8,
+                "yMin": 2.9,
+                "yMax": 5.0
+              },
+              {
+                "y": 4.6,
+                "yMin": 3.5,
+                "yMax": 6.0
+              }
+            ],
+            "label":"McLaughlin et al. (2012), (95% CI)",
+            "backgroundColor":"rgba(20,220,220,.8)"
+          }
+        ]
+      }, 
+      "options": {
+        "responsive": "true",
+        "scales": {
+          "xAxes": [{
+            "scaleLabel": {
+              "display": "true",
+              "labelString": "Number of adversities"
+            }
+          }],
+          "yAxes": [{
+            "scaleLabel": {
+              "display": "true",
+              "labelString": "Odds of mental disorder"
+            }
+          }]
+        }
+      }
+    }
+    -->
+  </canvas>
+  <div class="imgcite">
+    <cite><a href="https://dx.doi.org/10.1001%2Farchgenpsychiatry.2011.2277">McLaughlin et al. (2012)</a></cite>
+  </div>
+  <aside class="notes">
+    <div data-markdown>
+      * Number of ACEs vs likelihood of developing mental health problem compared to children who have not had these kinds of experiences.
+      * Dose/response relationship between adverse events and mental disorders later in life
+    </div>
+  </aside>
+</section>
+
+<section>
+  <h2>Population Attributable Risk Proportions (PARPs)</h2>
+  <canvas data-chart="bar">
+    <!-- 
+    {
+      "data": {
+        "labels": [
+          "Childhood (ages 4-12)",
+          "Adolescence (ages 13-19)",
+          "Early adulthood (ages 20-29)",
+          "Middle-later adulthood (ages 30+)"
+        ],
+        "datasets": [
+          {
+            "data": [44.6, 32.0, 28.6, 25.9],
+            "backgroundColor": ["#ffa600", "#ef5675", "#7a5195", "#003f5c"],
+            "label": "Green et al. (2010)"
+          }
+        ]
+      }, 
+      "options": {
+        "responsive": "true",
+        "legend": {
+          "display": "false"
+        },
+        "scales": {
+          "xAxes": [{
+            "scaleLabel": {
+              "display": "true",
+              "labelString": "Onset Stage"
+            }
+          }],
+          "yAxes": [{
+            "scaleLabel": {
+              "display": "true",
+              "labelString": "PARP (%)"
+            },
+            "ticks": {
+              "beginAtZero": "true",
+              "suggestedMax": 100
+            }
+          }]
+        }
+      }
+    }
+    -->
+  </canvas>
+  <div class="imgcite">
+    <cite><a href="https://dx.doi.org/10.1001%2Farchgenpsychiatry.2009.186">Green et al. (2010)</a></cite>
+  </div>
+  <aside class="notes">
+    <div data-markdown>
+      * Population Attributable Risk Proportions (PARPs) are the proportion of all mental disorders in the US that are explained by exposure to adverse experiences.
+      * Another way to think about it is it's the proportion of mental health problems that we could theoretically prevent if we got rid of adversity or could prevent its downstream consequences.
+      * Broken down by age of onset
+      * Almost half of childhood mental health problems attributable to ACEs
+      * PARP descreases as onset age increases but it is still about a quarter for mid-to-late adulthood.
+    </div>
+  </aside>
+</section>
