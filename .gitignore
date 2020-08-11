@@ -1,0 +1,8 @@
+.DS_Store
+.nvmrc
+.python-version
+*.swp
+.ipynb_checkpoints/
+*.withnotes
+*.nonotes
+.editorconfig
