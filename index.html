@@ -130,6 +130,12 @@
         <!-- Main slides -->
         <section id="motivation" data-external="sections/motivation.html"></section>
         <section id="conceptual-models" data-external="sections/conceptual-models.html"></section>
+        <section id="fronto-amygdala" data-external="sections/fronto-amygdala.html"></section>
+        <section id="salience" data-external="sections/salience.html"></section>
+        <section id="hippocampus" data-external="sections/hippocampus.html"></section>
+        <section id="fronto-parietal" data-external="sections/fronto-parietal.html"></section>
+        <section id="fronto-striatal" data-external="sections/fronto-striatal.html"></section>
+        <section id="conclusion-and-open-questions" data-external="sections/conclusion.html"></section>
         <section id="thanks" data-external="sections/thanks.html"></section>
       </div>
     </div>
@@ -193,20 +199,6 @@
           defaults: {
             global: {
               defaultFontSize: 24,
-            },
-          },
-          doughnut: {
-            legend: {
-              display: false,
-            },
-            tooltips: {
-              callbacks: {
-                label: function(tooltipItem, data) {
-                  var dataset = data.datasets[tooltipItem.datasetIndex];
-                  var index = tooltipItem.index;
-                  return dataset.labels[index] + ': ' + dataset.data[index];
-                }
-              }
             }
           }
         }
